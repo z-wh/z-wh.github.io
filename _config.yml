@@ -1,7 +1,8 @@
 # Site
 title: z_wh
 description: 欢迎光临 zwh's Blog
-url: https://z_wh.gitee.io/z_wh
+url: /z_wh.gitee.io
+url: /z-wh.github.io
 logo: zwh.png                                       # Site logo
 locale: en_US
 
@@ -55,11 +56,11 @@ weibo:             512001218
 #behance:           username
 
 # Gems
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
 
 # Exclude list
 include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+exclude: [README.md, zwh.ai, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
