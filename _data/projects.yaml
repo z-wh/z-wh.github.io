@@ -8,11 +8,6 @@
   image: https://img.zcool.cn/community/01c67f5ad85742a801213867f08b27.jpg@1280w_1l_2o_100sh.webp
   completed: true
 
-- title: 易卡吧主页
-  url: https://www.zcool.com.cn/work/ZMjczMjY2MjQ=.html
-  image: https://img.zcool.cn/community/01a6cf5b3ae98ca80120b959c00c6e.jpg@1280w_1l_2o_100sh.webp
-  completed: true
-
 - title: 易卡工坊宣传物料设计
   url: https://www.zcool.com.cn/work/ZMjczMjY3MDQ=.html
   image: https://img.zcool.cn/community/01c3955ad857aba801213867963c16.jpg@1280w_1l_2o_100sh.webp
@@ -36,6 +31,11 @@
 - title: 3天攻克-雅思阅读微信图
   url: https://www.zcool.com.cn/work/ZMjgyNzE5MDA=.html
   image: https://img.zcool.cn/community/01f18c5b39d540a80121b994906231.jpg@1280w_1l_2o_100sh.webp
+  completed: true
+
+- title: 易卡吧主页
+  url: https://www.zcool.com.cn/work/ZMjczMjY2MjQ=.html
+  image: https://img.zcool.cn/community/01a6cf5b3ae98ca80120b959c00c6e.jpg@1280w_1l_2o_100sh.webp
   completed: true
 
 - title: 晚自习课堂微信图
@@ -63,6 +63,11 @@
   image: https://img.zcool.cn/community/01a6cf5b3b0699a80121b9947bf9fa.jpg@1280w_1l_2o_100sh.webp
   completed: true
 
+- title: 后高考留学一站式服务手机端网页
+  url: http://hz.xhd.cn/m/topic/hzsem/hgklxyd/
+  image: https://img.zcool.cn/community/0120385b42de1da80120b9598fb2c9.jpg@1280w_1l_2o_100sh.webp
+  completed: true
+
 - title: 听力场景词汇竞赛微信图
   url: https://www.zcool.com.cn/work/ZMjc3ODc3MTI=.html
   image: https://img.zcool.cn/community/01b4745b3b08dea80121b99477ff43.jpg@1280w_1l_2o_100sh.webp
@@ -71,6 +76,16 @@
 - title: 单词打卡竞赛微信图
   url: https://www.zcool.com.cn/work/ZMjc3ODc3MTI=.html
   image: https://img.zcool.cn/community/01fc2f5b3b08e4a80120b95982fc9c.jpg@1280w_1l_2o_100sh.webp
+  completed: true
+
+- title: 英联邦留学专场说明会网页
+  url: http://hz.xhd.cn/topic/ylblxzcsmh/
+  image: https://img.zcool.cn/community/019f355b42d447a80120b95910f2af.jpg@1280w_1l_2o_100sh.webp
+  completed: true
+
+- title: 英联邦留学专场说明会展架
+  url: https://www.zcool.com.cn/work/ZMjg4ODg0NzI=.html
+  image: https://img.zcool.cn/community/0156955b42d449a80121b99446e954.jpg@1280w_1l_2o_100sh.jpg
   completed: true
 
 - title: 更多作品。。。

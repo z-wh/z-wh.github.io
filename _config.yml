@@ -33,7 +33,7 @@ email:             z-wh@outlook.com
 #google.plus:        username
 #twitter:            username
 #facebook:           username
-#github:             username
+github:             z-wh
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
@@ -53,6 +53,8 @@ weibo:             512001218
 #xmpp:              username@server.com
 #hackernews:        username
 #behance:           username
+zcool:             zhouwh
+gitee:             z-wh
 
 # Gems
 plugins:
