@@ -1,9 +1,9 @@
 # Site
 title: z_wh
 description: 欢迎光临 zwh's Blog
-url: /z-wh.github.io
+url: 
 logo: zwh.png                                       # Site logo
-locale: en_US
+locale: zh_CN
 
 # Left Block Images
 background:

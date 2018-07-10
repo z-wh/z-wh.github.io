@@ -15,5 +15,6 @@ tag:
 ### 配置忽略检查项
 scsslint可在scss文件注释中直接配置需要忽略的检查项，如：
 
-    /* scss-lint:disable Indentation PropertySortOrder IdSelector*/
     @charset "utf-8";
+    /* scss-lint:disable Indentation PropertySortOrder IdSelector*/
+
