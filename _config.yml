@@ -1,7 +1,8 @@
 # Site
 title: z_wh
 description: 欢迎光临 zwh's Blog
-url: /
+url: 
+homeurl: /
 logo: zwh.png                                       # Site logo
 locale: zh_CN
 
