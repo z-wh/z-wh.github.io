@@ -29,7 +29,7 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Baidu Analytics
-  baidu-analytics: 3e2dcba1b1fa12b671b61c4c7bd26db0
+baidu-analytics: 3e2dcba1b1fa12b671b61c4c7bd26db0
 
 # Social Links
 email:             z-wh@outlook.com
