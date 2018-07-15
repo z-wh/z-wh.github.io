@@ -92,7 +92,6 @@ tag:
     xdebug.auto_trace = On ;开启自动跟踪回溯
     xdebug.trace_output_dir="e:/wamp64/xdebug";设置回溯信息输出目录
     xdebug.trace_output_name=trace.%R.%t;设置回溯信息输出文件名
-    xdebug.collect_params=3;通过设置collect_params选项值为3开启参数记录
     xdebug.show_exception_trace = On ;开启异常跟踪
     xdebug.show_local_vars=0
     xdebug.collect_vars = On ;收集变量
