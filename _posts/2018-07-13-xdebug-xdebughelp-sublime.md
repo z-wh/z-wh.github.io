@@ -9,14 +9,19 @@ tag:
 ---
 
 ## xdebug插件PHPini配置
+
 1. `xdebug.remote_autostart=on`  
-   开启远程调试自动启动,如果设置为on，则会忽略浏览器中是选择Debug还是Disable，都会进行调试。也就是说如果要配合浏览器Xdebug help插件，进行选定页面调试，就要设置为`off`,这样就可以手动控制是否开启页面的xdebug调试，可以指定从某个有问题的页面开始调试。xdebug help浏览器插件只有chrome 和 firefox应用商店有，但chrome应用商店已被墙。其它浏览器要想也能和xdebug通信，因为无插件能开启、关闭调试，所以要把远程自动调试设置为开启。
+
+   开启远程调试自动启动,如果设置为on，则会忽略浏览器中是选择Debug还是Disable，都会进行调试。也就是说如果要配合浏览器Xdebug help插件，进行选定页面调试，就要设置为off,这样就可以手动控制是否开启页面的xdebug调试，可以指定从某个有问题的页面开始调试。xdebug help浏览器插件只有chrome 和 firefox应用商店有，但chrome应用商店已被墙。其它浏览器要想也能和xdebug通信，因为无插件能开启、关闭调试，所以要把远程自动调试设置为开启。
+
     * 360浏览器（安全和极速都可以）、chrome等其他浏览器要安装xdebug help插件，也可以通过手动安装的方式安装插件。先从github上找到该[插件主页](https://github.com/mac-cain13/xdebug-helper-for-chrome)，然后下载解压。打开浏览器*插件管理里*的“开发者模式”->"加载已解压的扩展程序"->"确认"，即可安装好。
 
-2. `xdebug.auto_trace = On`  
+2. `xdebug.auto_trace = on`  
+
    开启自动跟踪回溯,如果设置为on,就能自动进行路径追踪获得回溯信息
 
 3. 请求参数触发  
+
    如果配置xdebug.auto_trace=on的话,你运行任何PHP文件都会产生回溯记录
 
    但有时候你只需要回溯某一个地址的运行轨迹,可以通过设置xdebug.trace_enable_trigger=on来实现,但前提是要设置xdebug.auto_trace=off(或者删除这个选项)
@@ -44,6 +49,7 @@ tag:
 ```
 
 4. 函数触发  
+
    在测试前请先确认配置xdebug.auto_trace=off(关闭自动回溯)
 
    然后找到你要开始追踪回溯的代码位置调用xdebug_start_trace函数,再在要停止追踪回溯的位置调用xdebug_stop_trace函数,这样就会生成回溯信息,并且是对你开始和结束trace函数之间的代码进行记录,其它无关的代码是不记录的
@@ -77,7 +83,23 @@ tag:
 
    而函数触发时就缩小了你需要的范围,查找就快捷了很多!
 
-5. php.ini文件中的配置如下：
+5. 利用xdebug检测项目性能
+
+   xdebug提供了一个叫profiler的功能，可以用来检测项目的性能，以便能够找出项目的瓶颈，使用该功能，首先需要了解一些配置参数：
+
+   `xdebug.profiler_enable`  
+   boolean类型，默认值0。用于设定是否开启生成报告文件，如果设定为1，每次请求都会生成一个性能报告文件。
+
+   `xdebug.profiler_enable_trigger`  
+   boolean类型，默认值0。如果开启该选项，则在每次请求中如果GET/POST或cookie中包含XDEBUG_PROFILE变量名，则才会生成性能报告文件(前提是必须关闭xdebug.profiler_enable选项，否则该选项不起作用)。
+
+   `xdebug.profiler_output_dir`  
+   字符串类型。用于设定生成的报告文件的存放的路径。
+
+   `xdebug.profiler_output_name`  
+   字符串类型。用于设定生成的报告文件的名字，如`cachegrind.out.%t.%p`
+
+6. php.ini文件中的配置如下：
 ```
     [xdebug]
     zend_extension ="e:/wamp64/bin/php/php5.6.35/zend_ext/php_xdebug-2.5.5-5.6-vc11-x86_64.dll";php加载xdebug
@@ -86,9 +108,9 @@ tag:
     xdebug.remote_handler=dbgp;用于sublime远程调试的应用层通信协议
     xdebug.remote_host=127.0.0.1;允许连接的sublime的IP地址
     xdebug.remote_port=9000;反向连接sublime使用的端口
-    xdebug.profiler_enable = on
-    xdebug.profiler_output_name = cachegrind.out.%t.%p
-    xdebug.profiler_output_dir ="e:/wamp64/xdebug";xdebug 的数据文件目录
+    xdebug.profiler_enable = off;如果不检测项目性能就不用开
+    xdebug.profiler_output_name = cachegrind.out.%t.%p;性能报告文件名
+    xdebug.profiler_output_dir ="e:/wamp64/xdebug";性能报告文件目录
     xdebug.auto_trace = On ;开启自动跟踪回溯
     xdebug.trace_output_dir="e:/wamp64/xdebug";设置回溯信息输出目录
     xdebug.trace_output_name=trace.%R.%t;设置回溯信息输出文件名
@@ -106,6 +128,7 @@ tag:
 1. 安装 xdebug client
 
 2. 配置如下，记录下，以防忘记：
+
 ```
     {
     //本地调试就写这个
