@@ -10,7 +10,6 @@ tag:
 
 ## xdebug插件PHPini配置
 1. `xdebug.remote_autostart=on`  
-
    开启远程调试自动启动,如果设置为on，则会忽略浏览器中是选择Debug还是Disable，都会进行调试。也就是说如果要配合浏览器Xdebug help插件，进行选定页面调试，就要设置为`off`,这样就可以手动控制是否开启页面的xdebug调试，可以指定从某个有问题的页面开始调试。xdebug help浏览器插件只有chrome 和 firefox应用商店有，但chrome应用商店已被墙。其它浏览器要想也能和xdebug通信，因为无插件能开启、关闭调试，所以要把远程自动调试设置为开启。
     * 360浏览器（安全和极速都可以）、chrome等其他浏览器要安装xdebug help插件，也可以通过手动安装的方式安装插件。先从github上找到该[插件主页](https://github.com/mac-cain13/xdebug-helper-for-chrome)，然后下载解压。打开浏览器*插件管理里*的“开发者模式”->"加载已解压的扩展程序"->"确认"，即可安装好。
 
@@ -23,11 +22,11 @@ tag:
    但有时候你只需要回溯某一个地址的运行轨迹,可以通过设置xdebug.trace_enable_trigger=on来实现,但前提是要设置xdebug.auto_trace=off(或者删除这个选项)
 
       配置样本:
-          ```
-                 xdebug.auto_trace=off
-                 xdebug.trace_enable_trigger=on
-                 xdebug.trace_output_dir="E:\xdebug"
-          ```
+```
+          xdebug.auto_trace=off
+          xdebug.trace_enable_trigger=on
+          xdebug.trace_output_dir="E:\xdebug"
+```
    这样你访问/index.php不会产生回溯记录,但是你如果修改一下URL参数,加上XDEBUG_TRACE这个参数名,不用参数值,只要有参数名就行了
 
    就是访问这样的/index.php?XDEBUG_TRACE地址,然后就会产生文件了,这就是通过GET参数触发
