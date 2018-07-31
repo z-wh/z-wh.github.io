@@ -4,8 +4,8 @@ title:  "xdebug、浏览器xdebug help插件和sublime搭建PHP调试"
 date:   2018-07-13
 excerpt: "xdebug、浏览器xdebug插件和sublime搭建PHP调试"
 tag:
-- scss
-- css
+- php
+- xdebug
 ---
 
 ## xdebug插件PHPini配置
