@@ -9,4 +9,4 @@ layout: home
 
 工作中会涉及到[前端](https://gitee.com/z_wh)工作
 
-对[后端](https://gitee.com/z_wh)也很感兴趣,自己学习过java、php
+对[后端](https://gitee.com/z_wh)也很感兴趣,自学过java、php

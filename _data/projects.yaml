@@ -1,96 +1,111 @@
 - title: 百立印VI+LOGO设计
   url: https://www.zcool.com.cn/work/ZMjczMjY0Mjg=.html
-  image: https://img.zcool.cn/community/0136675ad8562da80120402970342e.jpg@1280w_1l_2o_100sh.webp
+  image: images/bailiyin.jpg
   completed: true
 
 - title: 易卡吧LOGO设计
   url: https://www.zcool.com.cn/work/ZMjczMjY2MjQ=.html
-  image: https://img.zcool.cn/community/01c67f5ad85742a801213867f08b27.jpg@1280w_1l_2o_100sh.webp
+  image: images/yikaba.jpg
   completed: true
 
 - title: 易卡工坊<br>宣传物料设计
   url: https://www.zcool.com.cn/work/ZMjczMjY3MDQ=.html
-  image: https://img.zcool.cn/community/01c3955ad857aba801213867963c16.jpg@1280w_1l_2o_100sh.webp
+  image: images/yikagongfang.jpg
   completed: true
 
 - title: 杭州新航道SEM移动站
   url: http://hz.xhd.cn/m/topic/hzsem/m
-  image:
+  image: images/hzsem.jpg
   completed: true
 
 - title: 锦秋A-Level<br>开启英联邦名校之门网页
   url: http://hz.xhd.cn/topic/new_A-Level/
-  image: http://hz.xhd.cn/topic/new_A-Level/images/banner.jpg
+  image: images/a-level.jpg
   completed: true
 
 - title: 新航道AP课程<br>奋斗在起跑线
   url: http://hz.xhd.cn/topic/new_AP/
-  image: http://hz.xhd.cn/topic/new_AP/images/banner.jpg
+  image: images/ap.jpg
   completed: true
 
 - title: 北美硕博直通车<br>移动端网页
   url: http://hz.xhd.cn/m/topic/hzsem/bmshuoboyd/
-  image: http://hz.xhd.cn/m/topic/hzsem/bmshuoboyd/images/banner_brand.jpg
+  image: images/bmshuoboyd.jpg
   completed: true
 
 - title: 北美硕博直通车<br>PC端网页
   url: http://hz.xhd.cn/topic/hzsem/bmshuobo/
-  image: http://hz.xhd.cn/m/topic/hzsem/bmshuoboyd/images/banner_brand.jpg
+  image: images/bmshuobo.jpg
   completed: true
 
 - title: 高考英语一遍过<br>PC端网页
   url: http://hz.xhd.cn/topic/gkyyybg/
-  image: http://hz.xhd.cn/topic/gkyyybg/images/banner.jpg
+  image: images/gkyyybg.jpg
   completed: true
 
 - title: 国际高中择校攻略<br>PC端网页
   url: http://hz.xhd.cn/topic/gjgzzxgl/
-  image: http://hz.xhd.cn/topic/gjgzzxgl/images/banner.jpg
+  image: images/gjgzzxgl.jpg
   completed: true
 
 - title: 为什么要让孩子<br>就读国际高中<br>PC端网页
   url: http://hz.xhd.cn/topic/why_choose_gjgz/
-  image: http://hz.xhd.cn/topic/why_choose_gjgz/images/banner.jpg
+  image: images/why_choose_gjgz.jpg
   completed: true
 
 - title: 雅思托福备考<br>资料领取PC端网页
   url: http://hz.xhd.cn/topic/hzsem/get_book/
-  image: http://hz.xhd.cn/topic/hzsem/get_book/images/banner_1.jpg
+  image: images/get_book.jpg
   completed: true
 
 - title: 新航道2019<br>春季定制班网页
   url: http://nb.xhd.cn/topic/2019cjdzb/
-  image: https://img.zcool.cn/community/01ede25c720d75a801203d22e83e82.jpg@1280w_1l_2o_100sh.jpg
+  image: images/2019cjdzb.jpg
   completed: true
 
 - title: 新航道留学预备<br>学霸班网页
   url: http://nb.xhd.cn/topic/lxybxbb/
-  image: https://img.zcool.cn/community/01166a5c720656a801203d22617e9c.jpg@1280w_1l_2o_100sh.jpg
+  image: images/lxybxbb.jpg
   completed: true
 
 - title: 雅思VS托福移动端页面
   url: http://hz.xhd.cn/m/topic/hzsem/newysvstfyd/
-  image: https://img.zcool.cn/community/01ff535c720456a801213f26bf7e0c.jpg@1280w_1l_2o_100sh.jpg
+  image: images/ysvstfyd.jpg
   completed: true
 
 - title: 暑假班PC端网页
   url: http://hz.xhd.cn/topic/2018sjb/
-  image: https://img.zcool.cn/community/0127205b39cdffa80120b9598230cd.jpg@1280w_1l_2o_100sh.webp
+  image: images/2018sjb.jpg
   completed: true
 
 - title: 暑假班手机端网页
   url: http://hz.xhd.cn/m/topic/2018sjbyd/
-  image: https://img.zcool.cn/community/01763f5b39ce48a80120b959d28481.jpg@1280w_1l_2o_100sh.webp
+  image: images/2018sjbyd.jpg
   completed: true
 
 - title: A-Level手机端网页
   url: http://hz.xhd.cn/m/topic/A-Levelyd/
-  image: https://img.zcool.cn/community/01166e5b39d1c5a80121b994fb3058.jpg@1280w_1l_2o_100sh.webp
+  image: images/a-level-old.jpg
   completed: true
 
 - title: 后高考留学一站式<br>服务手机端网页
   url: http://hz.xhd.cn/m/topic/hzsem/hgklxyd/
-  image: https://img.zcool.cn/community/0120385b42de1da80120b9598fb2c9.jpg@1280w_1l_2o_100sh.webp
+  image: images/hougaokao.jpg
+  completed: true
+
+- title: 北美留学专场说明会网页
+  url: http://hz.xhd.cn/topic/bmlx18814/
+  image: https://img.zcool.cn/community/01c57c5b766cfea80120d8c0642b2a.jpg@1280w_1l_2o_100sh.jpg
+  completed: true
+
+- title: 英联邦留学专<br>场说明会网页
+  url: http://hz.xhd.cn/topic/ylblxzcsmh/
+  image: https://img.zcool.cn/community/019f355b42d447a80120b95910f2af.jpg@1280w_1l_2o_100sh.webp
+  completed: true
+
+- title: 创造120活动<br>专题网页及物料
+  url: http://hz.xhd.cn/topic/cz120/
+  image: https://img.zcool.cn/community/0133ac5c733e85a801213f26b32077.jpg@1280w_1l_2o_100sh.jpg
   completed: true
 
 - title: 3天攻克-雅思<br>阅读微信图
@@ -138,11 +153,6 @@
   image: https://img.zcool.cn/community/01fc2f5b3b08e4a80120b95982fc9c.jpg@1280w_1l_2o_100sh.webp
   completed: true
 
-- title: 英联邦留学专<br>场说明会网页
-  url: http://hz.xhd.cn/topic/ylblxzcsmh/
-  image: https://img.zcool.cn/community/019f355b42d447a80120b95910f2af.jpg@1280w_1l_2o_100sh.webp
-  completed: true
-
 - title: 留学故事分享会微信图
   url: https://www.zcool.com.cn/work/ZMjkyMDgxNDg=.html
   image: https://img.zcool.cn/community/017c495b56f68fa801206a35c6b302.jpg@1280w_1l_2o_100sh.webp
@@ -166,11 +176,6 @@
 - title: 2018新版<br>锦秋A-LEVEL手册
   url: https://www.zcool.com.cn/work/ZMjk1MDUxNzI=.html
   image: https://img.zcool.cn/community/01875d5b6aa6b0a801206a35f69edb.jpg@1280w_1l_2o_100sh.jpg
-  completed: true
-
-- title: 北美留学专场说明会网页
-  url: http://hz.xhd.cn/topic/bmlx18814/
-  image: https://img.zcool.cn/community/01c57c5b766cfea80120d8c0642b2a.jpg@1280w_1l_2o_100sh.jpg
   completed: true
 
 - title: 荧光夜跑宣传物料<br>（微信图、海报、门型架）
@@ -300,72 +305,67 @@
 
 - title: 腾飞托福阅读<br>听力班课单页
   url: https://www.zcool.com.cn/work/ZMzM2NjU5MDg=.html
-  image: https://img.zcool.cn/community/01d6c45c71ec12a801213f26fef150.jpg@1280w_1l_2o_100sh.jpg
+  image: images/banke.jpg
   completed: true
 
 - title: 美中高SAT模考<br>冲刺班单页
   url: https://www.zcool.com.cn/work/ZMzM2NjU5NDA=.html
-  image: https://img.zcool.cn/community/015dc75c71ecd1a801213f26a6aeac.jpg@1280w_1l_2o_100sh.jpg
-  completed: true
-
-- title: 创造120活动<br>专题网页及物料
-  url: http://hz.xhd.cn/topic/cz120/
-  image: https://img.zcool.cn/community/0133ac5c733e85a801213f26b32077.jpg@1280w_1l_2o_100sh.jpg
+  image: images/satchongci.jpg
   completed: true
 
 - title: 英语单词接龙微信图
   url: https://www.zcool.com.cn/work/ZMzM2NjY5MjQ=.html
-  image: https://img.zcool.cn/community/0165095c72003ca801213f264a8b11.jpg@1280w_1l_2o_100sh.jpg
+  image: images/dancidaren.jpg
   completed: true
 
 - title: 未来已来<br>新航道校园公益巡讲<br>微信图
   url: https://www.zcool.com.cn/work/ZMzM2NjcwNTY=.html
-  image: https://img.zcool.cn/community/012b3c5c7202b8a801213f26749ba7.jpg@1280w_1l_2o_100sh.jpg
+  image: images/weilaiyilai.jpg
   completed: true
 
 - title: 立减666微信图
   url: https://www.zcool.com.cn/work/ZMzM2NjcyNzY=.html
-  image: https://img.zcool.cn/community/01a4bb5c720553a801213f26248f35.jpg@1280w_1l_2o_100sh.jpg
+  image: images/lijian666.jpg
   completed: true
 
 - title: 吃汤圆，猜灯谜微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc0OTI=.html
-  image: https://img.zcool.cn/community/01652b5c72082ba801213f26ed3209.jpg@1280w_1l_2o_100sh.jpg
+  image: images/yuanxiao.jpg
   completed: true
 
 - title: 开学啦微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc1MTY=.html
-  image: https://img.zcool.cn/community/0169a45c720875a801213f26ee18f6.jpg@1280w_1l_2o_100sh.jpg
+  image: images/kaixuela.jpg
   completed: true
 
 - title: 心愿墙
   url: https://www.zcool.com.cn/work/ZMzM2Njc1NDA=.html
-  image: https://img.zcool.cn/community/014d215c7208f3a801213f26bfe1b2.jpg@1280w_1l_2o_100sh.jpg
+  image: images/wishes.jpg
   completed: true
 
 - title: 一节课吃透雅思<br>社会类大作文微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc1ODQ=.html
-  image: https://img.zcool.cn/community/014f455c720970a801203d220dbc66.jpg@1280w_1l_2o_100sh.jpg
+  image: images/dazuowen.jpg
   completed: true
 
 - title: 海外行前课程微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc2MDQ=.html
-  image: https://img.zcool.cn/community/01cd815c7209f9a801213f2656678b.jpg@1280w_1l_2o_100sh.jpg
+  image: images/buzouwanlu.jpg
   completed: true
 
 - title: 高能·高分榜手册微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc2OTY=.html
-  image: https://img.zcool.cn/community/01a1d75c720b34a801203d222d6f48.jpg@1280w_1l_2o_100sh.jpg
+  image: images/gngf.jpg
   completed: true
 
 - title: 越南屠鸭之路<br>大揭密微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc3MTI=.html
-  image: https://img.zcool.cn/community/01554a5c720b73a801203d22d2f1de.jpg@1280w_1l_2o_100sh.jpg
+  image: images/yuenantuya.jpg
   completed: true
 
 - title: 英雄帖微信图
   url: https://www.zcool.com.cn/work/ZMzM2Njc3Njg=.html
-  image: https://img.zcool.cn/community/0101085c720bd4a801203d22635f9f.jpg@1280w_1l_2o_100sh.jpg
+  image: images/yingxiongtie.jpg
   completed: true
 
 - title: 春季页面弹框
@@ -375,7 +375,7 @@
 
 - title: 微信推广图
   url: https://www.zcool.com.cn/work/ZMzM2NjgxNzI=.html
-  image: https://img.zcool.cn/community/01a0e45c7210fea801203d22495523.jpg@1280w_1l_2o_100sh.jpg
+  image: images/thanks.jpg
   completed: true
 
 - title: 超强英
@@ -385,12 +385,12 @@
 
 - title: 春天不学习<br>入夏两行泪微信图
   url: https://www.zcool.com.cn/work/ZMzM5MTE5Mjg=.html
-  image: https://img.zcool.cn/community/01e2635c7c763ca801213f26b9655b.jpg@1280w_1l_2o_100sh.jpg
+  image: images/spring.jpg
   completed: true
 
 - title: 对话国际高中微信图
   url: https://www.zcool.com.cn/work/ZMzM5MTE5NTY=.html
-  image: https://img.zcool.cn/community/01fddf5c7c7685a801203d22d5a720.jpg@1280w_1l_2o_100sh.jpg
+  image: images/conversation.jpg
   completed: true
 
 - title: 5家机构春季联合<br>送豪礼网页banner及优惠券
